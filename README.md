@@ -9,5 +9,4 @@ The webpage and its components are in the CNN folder.
 The model and the neural network weights are in the main directory.
 
 
-
-
+![webpage](/CNN/page.png)
