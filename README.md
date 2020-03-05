@@ -9,4 +9,4 @@ The webpage and its components are in the CNN folder.
 The model and the neural network weights are in the main directory.
 
 
-![webpage](https://github.com/martos123/numguesser/tree/master/CNN/page.png)
+![webpage](CNN/page.PNG)
