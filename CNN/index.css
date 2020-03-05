@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: linear-gradient(#E69A8DFF, #9198e5);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.navbar div {
+
+  font-size: 2.1rem;
+  font-weight: 500;
+  background: #5F4B8BFF 80%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container {
+  display: flex;
+
+  height: 90%;
+  width: 70%;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.Canvas {
+  flex: 3;
+}
+#myCanvas {
+  box-shadow: 4px 4px 8px darkslateblue;
+}
+.guess-container {
+  flex: 2;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 3rem;
+  background: linear-gradient(
+    135deg,
+    rgba(25, 17, 164, 0.8) 20%,
+    #E69A8DFF 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.button-container {
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+  flex: 3;
+}
+button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 150px;
+  height: 50px;
+  background-color: #E69A8DFF;
+  border: none;
+  color: white;
+  box-shadow: 2px 2px 6px darkslateblue;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  border-radius: 4px;
+}
+button:hover:enabled {
+  box-shadow: 6px 6px 8px darkslateblue;
+  background-color: #5F4B8BFF;
+}
+button:disabled{
+	background-color: gray;
+}
+button:active {
+  outline: 0;
+  box-shadow: 2px 2px 6px #5F4B8BFF;
+  
+}
+button:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 760px) {
+  button {
+	font-size: 1rem;
+	width: 120px;
+	height: 40px;
+  }
+  .button-container {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .guess-container {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 480px) {
+	button {
+		font-size: 1rem;
+	  width: 100px;
+	  height: 40px;
+	}
+	.button-container {
+	  justify-content: space-around;
+	  width: 100%;
+	}
+	.guess-container {
+	  font-size: 1.8rem;
+	  
+	}
+  }
