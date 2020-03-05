@@ -1,6 +1,6 @@
 # numguesser
 
-A handwritten digit recognition app. 
+## A handwritten digit recognition app. 
 
 The neural network was built in python, it is in the python-code folder.
 
